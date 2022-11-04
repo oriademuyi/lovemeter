@@ -1,4 +1,4 @@
-# lovemeter
+Lovemeter is an app that help you to calculate your love strenght with your lover
 
 A new Flutter project.
 
