@@ -90,16 +90,16 @@ class _ResultpageState extends State<Resultpage> {
               ),
               // Text(widget.lovemeter.toString() + "%"),
               widget.lovemeter >= 80
-                  ? Text("love is over 80%",
+                  ? Text("Your love will last long,its perfect love",
                       style: TextStyle(fontSize: 20, color: Colors.white))
                   : widget.lovemeter < 80 && widget.lovemeter >= 60
-                      ? Text("love is between 60 and 80")
+                      ? Text("strong likelihood of love")
                       : widget.lovemeter < 60 && widget.lovemeter >= 45
-                          ? Text("love is between 45 and 60",
+                          ? Text("not too strong likelihood of love",
                               style:
                                   TextStyle(fontSize: 20, color: Colors.white))
                           : widget.lovemeter <= 45
-                              ? Text("love is bellow 45")
+                              ? Text("There is no love")
                               : Container(),
               Padding(
                 padding: EdgeInsets.only(top: 20),

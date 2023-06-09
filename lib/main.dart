@@ -35,50 +35,52 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Padding(
-        padding: const EdgeInsets.only(top: 100),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            const Text(
-              "The",
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                  fontSize: 30),
-            ),
-            const Text("LOVE",
+      // appBar: AppBar(
+      //   title: Text(widget.title),
+      // ),
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 100),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              const Text(
+                "The",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
-                    fontSize: 30)),
-            Padding(
-              padding: const EdgeInsets.only(left: 40),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Text("Meter",
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                          fontSize: 30)),
-                  IconButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Meterpage()),
-                        );
-                      },
-                      iconSize: 72,
-                      icon: Icon(Icons.favorite))
-                ],
+                    fontSize: 30),
               ),
-            ),
-          ],
+              const Text("LOVE",
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 30)),
+              Padding(
+                padding: const EdgeInsets.only(left: 40),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Text("Meter",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 30)),
+                    IconButton(
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Meterpage()),
+                          );
+                        },
+                        iconSize: 72,
+                        icon: Icon(Icons.favorite))
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
