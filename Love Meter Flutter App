@@ -1,0 +1,26 @@
+A fun and interactive Flutter application design and implemented  by Muyiwa that calculates the compatibility score between two individuals based on their answers to a set of love-related questions.
+
+Features
+
+Enter your name and your partner's name.
+Answer a series of love-related questions.
+Press GO to calculate the compatibility score based on the answers.
+Share the compatibility result on social media.
+
+Installation
+To run the Love Meter app, Clone the repository:
+Usage
+Launch the Love Meter app on your device or emulator.
+Enter your name and your partner's name in the respective fields.
+Answer the love-related questions by selecting the appropriate options.
+Once you've answered all the questions, the compatibility score will be displayed.
+You can share the compatibility result on social media by tapping the share button.
+
+Contact Information
+For any questions or inquiries, please email us at olamidevick5@gmail.com.
+
+Acknowledgements
+This app package by Olarewaju Muyiwa.
+
+Caution 
+This app is only for entertainment purposes. Don't treat the results from this app too seriously - it's just for fun and to cheer you up.
